@@ -1,0 +1,10 @@
+TO-DO. Cosas que modificar de la interfaz de generaci—n
+
+-El bloque debe aparecer en las coordenadas donde se suelta el objeto
+-El objeto se transforma en el objeto final mientras se arrastra
+-Posibilidad de tener un œnio observador de arrastre
+-Las l’neas se centran en los bloques
+-Se escoge la l’nea m‡s corta entre las cuatro posibilidades
+-Posibilidad de cambiar el tama–o de los bloques
+-Definici—n de las conexiones en la interfaz
+-Sacar ideas de vertexlogic.com -> Biz Process Online

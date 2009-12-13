@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Ejemplo de la librería de dibujo</title>
+<link href="base.css" rel="stylesheet" type="text/css" />
+<script src="scriptaculous/prototype.js" type="text/javascript"></script>
+<script src="scriptaculous/scriptaculous.js" type="text/javascript"></script>
+<script src="csscanvas.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div id="variables">
+  <h3>Variables</h3>
+  <ul id='varlist'>
+    <li>Variable 1</li>
+    <li>Variable 2</li>
+    <li>Variable 3</li>
+    </ul>
+  </div>
+  
+<div id="relaciones">
+<h3>Relaciones</h3>
+  <ul id='rellist'>
+    <li>Relacion 1</li>
+    <li>Relacion 2</li>
+    <li>Relacion 3</li>
+  </ul>
+  </div>
+  
+  <div id="canvas">  </div>
+  
+<script language="javascript">
+  		var myCanvas = new Canvas('canvas');
+		createVariables('varlist');
+		createRelations('rellist');
+  </script>
+  
+</body>
+</html>
